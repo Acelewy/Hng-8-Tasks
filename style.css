@@ -292,4 +292,7 @@ footer {
     .job {
         font-size: 25px;
     }
+    .img-with-text {
+        max-width: 50vw;
+    }
 }
