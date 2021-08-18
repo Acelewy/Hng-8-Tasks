@@ -139,7 +139,7 @@ footer {
 .job {
     margin: 10px 0 3px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 19px;
 }
 
 .year {
@@ -286,29 +286,4 @@ footer {
 #research .project {
     font-weight: bold;
     padding-right: 2px;
-}
-
-
-/* ----------------------------------------------Print---------------------------------------------------------------------*/
-
-@media print {
-    html,
-    body {
-        background-color: #f3f3f3;
-        font-family: 'Segoe UI', helvetica, arial, sans-serif;
-        -webkit-print-color-adjust: exact;
-    }
-    #cv {
-        width: auto;
-        max-width: none;
-    }
-    .content {
-        font-weight: 300;
-        /* lighter for pdf printing */
-    }
-    .job,
-    #research .project {
-        /* lighter for pdf printing */
-        font-weight: 600;
-    }
 }
